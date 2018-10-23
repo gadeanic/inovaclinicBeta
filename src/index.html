@@ -26,44 +26,39 @@
     <link href="assets/css/lib/vector-map/jqvmap.min.css" rel="stylesheet"> 
 
 
-    <style>
-    #weatherWidget .currentDesc {
-        color: #ffffff!important;
-    }
-        .traffic-chart { 
-            min-height: 335px; 
-        }
-        #flotPie1  {
-            height: 150px;
-        } 
-        #flotPie1 td {
-            padding:3px;
-        }
-        #flotPie1 table {
-            top: 20px!important;
-            right: -10px!important;
-        }
-        .chart-container {
-            display: table;
-            min-width: 270px ;
-            text-align: left;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-        #flotLine5  {
-             height: 105px;
-        } 
-
-        #flotBarChart {
-            height: 150px;
-        }
-        #cellPaiChart{
-            height: 160px;
-        }
-
-    </style>
 </head>
 <body>
+
+  
   <app-root></app-root>
+
+
+  
+  <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script src="assets/js/lib/chart-js/Chart.bundle.js"></script>
+
+
+  <!--Chartist Chart-->
+  <script src="assets/js/lib/chartist/chartist.min.js"></script>
+  <script src="assets/js/lib/chartist/chartist-plugin-legend.js"></script> 
+
+  
+  <script src="assets/js/lib/flot-chart/jquery.flot.js"></script>
+  <script src="assets/js/lib/flot-chart/jquery.flot.pie.js"></script>
+  <script src="assets/js/lib/flot-chart/jquery.flot.spline.js"></script>
+
+
+  <script src="assets/weather/js/jquery.simpleWeather.min.js"></script>
+  <script src="assets/weather/js/weather-init.js"></script>
+
+
+  <script src="assets/js/lib/moment/moment.js"></script>
+  <script src="assets/calendar/fullcalendar.min.js"></script>
+  <script src="assets/calendar/fullcalendar-init.js"></script>
+
 </body>
 </html>
