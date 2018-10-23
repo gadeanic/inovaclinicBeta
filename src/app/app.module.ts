@@ -18,7 +18,15 @@ import { CitasInformesComponent } from './paginas/citas-informes/citas-informes.
 import { Error404Component } from './paginas/error404/error404.component';
 
 const routes: Routes = [
-  { path: 'citas-citas', component:CitasCitasComponent }
+  { path: 'citas-citas', component:CitasCitasComponent },
+  { path: 'error404', component:Error404Component },
+  { path: 'citas-configuracion', component:CitasConfiguracionComponent },
+  { path: 'citas-citas', component:CitasCitasComponent },
+  { path: 'citas-recepcion', component:CitasRecepcionComponent },
+  { path: 'citas-agendamedica', component:CitasAgendamedicaComponent },
+  { path: 'citas-informes', component:CitasInformesComponent },
+  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '**', redirectTo: '/error404', pathMatch: 'full' },
 ]
 @NgModule({
   declarations: [
